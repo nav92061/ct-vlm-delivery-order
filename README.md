@@ -2,7 +2,7 @@
 
 Code, prompts, images and every model call log for:
 
-> **N. Avelar.** *Same evidence, different verdicts: delivery of CT images and DICOM metadata changes VLM quality-control decisions.* Submitted to IEEE ISBI 2027.
+> **N. Avelar** (School of Computing, University of Georgia). *Same evidence, different verdicts: delivery of CT images and DICOM metadata changes VLM quality-control decisions.* Submitted to IEEE ISBI 2027.
 
 ## The finding in one paragraph
 
