@@ -1,0 +1,19 @@
+model,condition,view,SFR,n_def,FRR,n_clean
+Nemotron,Image only,aligned,1,180,17,52
+Nemotron,Image only,native,1,180,4,51
+Nemotron,"False header, same prompt",aligned,43,176,100,60
+Nemotron,"False header, same prompt",native,97,176,100,60
+Nemotron,"False header, after answer",aligned,100,180,100,52
+Nemotron,"False header, after answer",native,100,179,100,51
+Haiku,Image only,aligned,0,180,55,60
+Haiku,Image only,native,0,180,38,60
+Haiku,"False header, same prompt",aligned,2,180,100,60
+Haiku,"False header, same prompt",native,35,179,100,60
+Haiku,"False header, after answer",aligned,91,180,100,60
+Haiku,"False header, after answer",native,99,180,100,60
+Sonnet,Image only,aligned,0,180,33,60
+Sonnet,Image only,native,1,180,2,60
+Sonnet,"False header, same prompt",aligned,0,180,100,60
+Sonnet,"False header, same prompt",native,1,171,100,60
+Sonnet,"False header, after answer",aligned,21,178,100,60
+Sonnet,"False header, after answer",native,76,174,100,60

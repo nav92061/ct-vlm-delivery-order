@@ -1,0 +1,107 @@
+item,model,style,decision,follows_header,text,manual_code,borderline,auto_source
+H001,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B contains a black region with no image data.,image,False,image
+H002,Nemotron-3.5-VL-120B,native,REFUSE,True,"DECISION: REFUSE Series A and Series B have different z-ranges (-271.4 to 23.6 mm vs -181.4 to 23.6 mm), so they do not cover the same z-range.",header,False,header
+H003,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series have identical z-ranges (-278.7 to 13.8 mm) and 118 slices with no interior gaps.,header,False,header
+H004,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT The DICOM headers confirm both series cover the identical z-range (1407.5 to 1722.5 mm) with 0 interior gaps.,header,False,header
+H005,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE
+The z-ranges differ, with Series A extending to 1889.5 mm while Series B ends at 1774.3 mm.",header,False,generic
+H006,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B contains a black region with no image data, indicating missing slices.",image,False,image
+H007,Llama-3.2-90B-V,aligned,ADMIT,True,DECISION: ADMIT. The pair is admissible because both series cover the same z-range and neither has missing slices.,generic,False,generic
+H008,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE The series do not cover the same z-range (Series A: 1491.0–1773.0 mm, Series B: 1573.0–1773.0 mm).",header,False,header
+H009,Gemma-4-31B,aligned,ADMIT,True,DECISION: ADMIT Both series cover the same z-range with no missing slices.,generic,False,generic
+H010,Nemotron-3.5-VL-120B,native,REFUSE,True,DECISION: REFUSE because Series A and Series B have different z-ranges (-316.4 to 11.1 mm vs -231.4 to 11.1 mm).,header,False,header
+H011,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE
+Series B shows a large black horizontal band indicating missing image data.",image,False,image
+H012,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B contains a black region with no image data, indicating missing slices.",image,False,image
+H013,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B displays a large black region with no image data, indicating missing slices.",image,False,image
+H014,Nemotron-3.5-VL-120B,native,REFUSE,False,DECISION: REFUSE Series B z-axis labels (68 to -182 mm) do not match Series A (150 to -200 mm).,image,False,generic
+H015,Nemotron-3.5-VL-120B,native,REFUSE,True,"DECISION: REFUSE The series have different z-ranges (Series A: 1407.5–1722.5 mm, Series B: 1407.5–1665.5 mm).",header,False,header
+H016,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT. Both series cover the same z-range (-334.5 to -9.5 mm) and have no interior gaps.,header,False,header
+H017,Gemma-4-31B,native,ADMIT,True,"DECISION: ADMIT Both series have identical z-ranges, slice counts, and no gaps.",header,True,generic
+H018,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B displays a black horizontal band indicating missing image data or slices.,image,False,image
+H019,Gemma-4-31B,aligned,REFUSE,False,DECISION: REFUSE Series B has a large gap of missing image data in the lower chest.,image,False,image
+H020,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT Both series have identical z-ranges (30.5 to 350.0 mm) and zero interior gaps.,header,False,header
+H021,Gemma-4-31B,aligned,REFUSE,False,DECISION: REFUSE Series A contains a large region of missing image data at the top.,image,False,image
+H022,Nemotron-3.5-VL-120B,native,REFUSE,True,"DECISION: REFUSE because Series A covers -316.0 to -3.5 mm while Series B covers -248.5 to -3.5 mm, so they do not cover the same z-range.",header,False,header
+H023,Llama-3.2-90B-V,aligned,REFUSE,False,DECISION: REFUSE. The pair is not admissible because Series B has missing slices.,generic,False,generic
+H024,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a large black region at the top indicating missing image data.,image,False,image
+H025,Llama-3.2-90B-V,aligned,ADMIT,True,DECISION: ADMIT. The pair is admissible because both series cover the same z-range and neither has missing slices.,generic,False,generic
+H026,Gemma-4-31B,native,REFUSE,True,DECISION: REFUSE Series A and Series B cover different z-ranges.,generic,False,generic
+H027,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series have identical z-range (-349.5 to 4.5 mm) and the headers report 0 interior gaps.,header,False,header
+H028,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT The DICOM headers confirm both series cover the identical z-range (-1533.3 to -1233.0 mm) with 232 slices and 0 interior gaps.,header,False,header
+H029,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a large black gap indicating missing slices.,image,False,image
+H030,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series have identical z-range (-323.4 to -21.4 mm) and zero interior gaps.,header,False,header
+H031,Nemotron-3.5-VL-120B,native,REFUSE,False,"DECISION: REFUSE. The z-position labels in the image show different ranges for Series A (1620–1323 mm) and Series B (1588–1341 mm), so they do not cover the same z-range.",image,False,image
+H032,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT The DICOM headers confirm both series cover the identical z-range (1574.3–1887.5 mm) with 175 slices and zero interior gaps.,header,False,header
+H033,Nemotron-3.5-VL-120B,native,REFUSE,True,"DECISION: REFUSE The z-ranges differ (Series A: -278.0 to 17.0 mm, Series B: -278.0 to -53.0 mm).",header,False,header
+H034,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a black gap indicating missing slices.,image,False,image
+H035,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B contains a black region with no image data at the lower z-range, indicating missing slices.",image,False,image
+H036,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE Series A covers -326.0 to -20.0 mm while Series B covers -326.0 to -63.2 mm, so they do not share the same z-range.",header,False,header
+H037,Nemotron-3.5-VL-120B,native,REFUSE,False,"DECISION: REFUSE The visible z-labels show Series A starts at 350 mm while Series B starts at 294 mm, so they do not cover the same z-range.",image,False,image
+H038,Nemotron-3.5-VL-120B,aligned,ADMIT,True,"DECISION: ADMIT The DICOM headers show identical z-range (-366.0 to -42.0 mm), 163 slices, 2.0 mm thickness, and 0 interior gaps for both series.",header,False,both
+H039,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B contains a black band indicating missing image data.,image,False,image
+H040,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B displays a large black horizontal band indicating missing image data.,image,False,image
+H041,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B shows a black region with no image data at the top, indicating missing slices.",image,False,image
+H042,Llama-3.2-90B-V,aligned,REFUSE,False,DECISION: REFUSE. Series B has missing slices.,generic,False,generic
+H043,Nemotron-3.5-VL-120B,aligned,ADMIT,True,"DECISION: ADMIT
+Both series cover the same z-range (-391.5 to -34.0 mm) and have no interior gaps according to the header.",header,False,header
+H044,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a large black region at the lower z-range indicating missing slices.,image,False,image
+H045,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B displays a black region at the bottom indicating missing image data/slices.,image,False,image
+H046,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT Both series have identical z-ranges (-302.4 to -0.4 mm) and 152 slices with no interior gaps.,header,False,header
+H047,Llama-3.2-90B-V,aligned,ADMIT,True,DECISION: ADMIT. Both series cover the same z-range and neither has missing slices.,generic,False,generic
+H048,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT Both series cover the identical z-range (-336.0 to -30.0 mm) with 154 slices and 0 interior gaps.,header,False,header
+H049,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a black region at the bottom indicating missing image data.,image,False,image
+H050,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B shows a black region with no image data, indicating missing slices.",image,False,image
+H051,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT The DICOM headers confirm both series cover the same z-range (-337.1 to -29.1 mm) with 155 slices and 0 interior gaps.,header,False,header
+H052,Nemotron-3.5-VL-120B,native,ADMIT,True,"DECISION: ADMIT Both series have identical z-range (-335.2 to -5.2 mm), 166 slices, 2.5 mm thickness, and zero interior gaps.",header,False,header
+H053,Nemotron-3.5-VL-120B,aligned,REFUSE,True,DECISION: REFUSE Series A and Series B have different z-ranges (-278 to 17 mm vs -278 to -53 mm).,header,True,generic
+H054,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT. Both series share the same z-range (-321.0 to -17.0 mm) and report zero interior gaps.,header,False,header
+H055,Nemotron-3.5-VL-120B,aligned,ADMIT,True,"DECISION: ADMIT. Both series have identical z-range (-366.5 to -38.5 mm), 165 slices, 2.5 mm thickness, and no interior gaps per the DICOM header.",header,False,header
+H056,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE The z-ranges are not identical (Series A: 1557.6–1815.0 mm, Series B: 1636.8–1815.0 mm).",header,False,header
+H057,Nemotron-3.5-VL-120B,aligned,REFUSE,True,DECISION: REFUSE. Series A and Series B do not cover the same z-range (1574.3–1887.5 mm vs 1574.3–1811.9 mm).,header,False,header
+H058,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT Both series cover the identical z-range of 52.0 to 352.0 mm with 201 slices and no interior gaps according to the headers.,header,False,header
+H059,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE The z-ranges differ, with Series A covering 1587.5–1919.5 mm and Series B covering 1663.5–1919.5 mm.",header,False,header
+H060,Nemotron-3.5-VL-120B,native,ADMIT,True,"DECISION: ADMIT Both series have identical z-range (-278.5 to 11.6 mm), 117 slices, 2.5 mm thickness, and no interior gaps.",header,False,header
+H061,Gemma-4-31B,aligned,REFUSE,False,DECISION: REFUSE Series B has missing image data at the top of the z-range.,image,False,image
+H062,Nemotron-3.5-VL-120B,native,REFUSE,False,"DECISION: REFUSE Series B shows a z-position gap from -191 to -281 mm, indicating missing slices.",image,True,image
+H063,Gemma-4-31B,native,ADMIT,True,DECISION: ADMIT Both series cover the same z-range with identical slice counts and no gaps.,header,True,generic
+H064,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a black region at the bottom indicating missing slices or data not present in Series A.,image,False,image
+H065,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a large black region at inferior z-values indicating missing slices or incomplete coverage compared to Series A.,image,False,image
+H066,Nemotron-3.5-VL-120B,native,ADMIT,True,"DECISION: ADMIT Both series have identical z-ranges (-349.5 to 4.5 mm), identical slice counts (355), and zero interior gaps.",header,False,header
+H067,Nemotron-3.5-VL-120B,aligned,ADMIT,True,"DECISION: ADMIT Both series have identical z-range (-316.0 to -3.5 mm), 251 slices, and no interior gaps per the DICOM headers.",header,False,header
+H068,Gemma-4-31B,aligned,REFUSE,False,DECISION: REFUSE Series B contains missing image data (black regions).,image,False,image
+H069,Gemma-4-31B,native,ADMIT,True,DECISION: ADMIT Both series cover the same z-range with identical slice counts and no gaps.,header,True,generic
+H070,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series cover the identical z-range (-345.2 to -32.8 mm) with 0 interior gaps.,header,False,header
+H071,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series have identical z-ranges and slice counts with no interior gaps according to the header.,header,False,header
+H072,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE Series B z-range ends at -72.2 mm while Series A extends to 23.8 mm, so they do not cover the same z-range.",header,False,image
+H073,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE Series B shows a large black band with no image data, indicating missing slices.",image,False,image
+H074,Gemma-4-31B,aligned,REFUSE,False,DECISION: REFUSE Series B contains a large gap of missing image data.,image,False,image
+H075,Nemotron-3.5-VL-120B,native,REFUSE,False,"DECISION: REFUSE Series B is labelled only down to 1552 mm while Series A extends to 1501 mm, so the z-ranges do not match.",image,False,image
+H076,Nemotron-3.5-VL-120B,aligned,ADMIT,True,"DECISION: ADMIT Both series share the same z-range (1314.0 to 1620.0 mm) and have zero interior gaps, so neither has missing slices.",header,False,header
+H077,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT Both series cover the identical z-range and have zero interior gaps.,header,True,header
+H078,Nemotron-3.5-VL-120B,native,ADMIT,True,"DECISION: ADMIT. Both series have identical z-range (-336.0 to -30.0 mm), 154 slices, 2.5 mm thickness, and 0 interior gaps per the headers.",header,False,header
+H079,Nemotron-3.5-VL-120B,native,REFUSE,False,"DECISION: REFUSE Series A starts at z=1552 mm while Series B starts at z=1452 mm, so they do not cover the same z-range.",image,True,generic
+H080,Llama-3.2-90B-V,native,REFUSE,True,DECISION: REFUSE. The z-ranges of the two series do not match.,generic,False,generic
+H081,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT The DICOM headers confirm both series cover the identical z-range (-366.0 to -42.0 mm) with 163 slices and no interior gaps.,header,False,header
+H082,Nemotron-3.5-VL-120B,native,REFUSE,True,"DECISION: REFUSE Series A spans -310.0 to 0.0 mm while Series B spans -247.5 to 0.0 mm, so their z-ranges do not match.",header,False,header
+H083,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT The header summary confirms both series cover the same z-range (30.5–350.0 mm) with 214 slices and no interior gaps.,header,False,header
+H084,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a horizontal black band indicating missing slices.,image,False,image
+H085,Nemotron-3.5-VL-120B,native,REFUSE,True,"DECISION: REFUSE Series A spans -328.0 to -10.0 mm while Series B spans -244.0 to -10.0 mm, so they do not cover the same z-range.",header,False,header
+H086,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B contains a black region with no image data.,image,False,image
+H087,Nemotron-3.5-VL-120B,native,ADMIT,True,"DECISION: ADMIT
+Both series cover the identical z-range (-1689.7 to -1353.0 mm) with 260 slices and no interior gaps.",header,False,header
+H088,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B contains a large black bar indicating missing image data.,image,False,image
+H089,Nemotron-3.5-VL-120B,native,ADMIT,True,"DECISION: ADMIT The DICOM header summary confirms both series have identical z-ranges (1379.0 to 1675.0 mm), 149 slices, and 0 interior gaps.",header,False,header
+H090,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series have identical z-coverage (-310.5 to -18.0 mm) and zero interior gaps per the header.,header,False,header
+H091,Nemotron-3.5-VL-120B,native,REFUSE,True,DECISION: REFUSE because the z-ranges differ (Series A: 1534.9 to 1889.5 mm; Series B: 1534.9 to 1774.3 mm).,header,False,header
+H092,Nemotron-3.5-VL-120B,aligned,REFUSE,True,"DECISION: REFUSE The z-ranges are not the same (Series A: -391.5 to -34.0 mm, Series B: -391.5 to -146.5 mm).",header,False,header
+H093,Llama-3.2-90B-V,aligned,REFUSE,False,DECISION: REFUSE. The pair is not admissible because Series B has missing slices.,generic,False,generic
+H094,Nemotron-3.5-VL-120B,aligned,REFUSE,False,DECISION: REFUSE Series B shows a large black region at the bottom indicating missing image data.,image,False,image
+H095,Nemotron-3.5-VL-120B,aligned,ADMIT,True,DECISION: ADMIT Both series cover the same z-range (-278.5 to 11.6 mm) with 117 slices and no interior gaps.,header,False,header
+H096,Llama-3.2-90B-V,aligned,REFUSE,False,DECISION: REFUSE. The pair is not admissible because Series B has missing slices.,generic,False,generic
+H097,Nemotron-3.5-VL-120B,aligned,ADMIT,True,"DECISION: ADMIT Both series have identical z-ranges (1574.3 to 1887.5 mm), identical slice counts (175), and no interior gaps per the header summary.",header,False,header
+H098,Llama-3.2-90B-V,native,REFUSE,True,DECISION: REFUSE. Series B does not cover the same z-range as Series A.,generic,False,generic
+H099,Nemotron-3.5-VL-120B,aligned,REFUSE,False,"DECISION: REFUSE
+Series B shows a large black region at the top indicating missing image data.",image,False,image
+H100,Llama-3.2-90B-V,aligned,REFUSE,False,DECISION: REFUSE. The pair is not admissible because Series B has missing slices.,generic,False,generic
+H101,Nemotron-3.5-VL-120B,native,ADMIT,True,DECISION: ADMIT Both series cover the identical z-range (52.0 to 352.0 mm) with zero interior gaps.,header,False,header

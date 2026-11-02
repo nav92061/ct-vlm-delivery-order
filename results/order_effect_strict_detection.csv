@@ -1,0 +1,13 @@
+model,style,subset,n,one,two
+Nemotron,aligned,all detected,174,43,100
+Nemotron,aligned,clean pair also admitted,124,40,100
+Nemotron,native,all detected,173,97,100
+Nemotron,native,clean pair also admitted,141,96,100
+Haiku,aligned,all detected,180,2,91
+Haiku,aligned,clean pair also admitted,81,2,89
+Haiku,native,all detected,179,35,99
+Haiku,native,clean pair also admitted,110,40,99
+Sonnet,aligned,all detected,178,0,21
+Sonnet,aligned,clean pair also admitted,119,0,17
+Sonnet,native,all detected,164,1,74
+Sonnet,native,clean pair also admitted,161,1,75

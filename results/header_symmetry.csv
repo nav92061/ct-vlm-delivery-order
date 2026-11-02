@@ -1,0 +1,28 @@
+model,turn2,cases,n,flipped,pct
+Nemotron,"false header, turn 2","defective, refused from image",355,355,100.0
+Nemotron,"false header, turn 2","clean, admitted from image",92,92,100.0
+Nemotron,"false header, turn 2","clean, falsely refused from image",11,0,0.0
+Nemotron,"true header, turn 2","defective, refused from image",356,0,0.0
+Nemotron,"true header, turn 2","clean, admitted from image",92,0,0.0
+Nemotron,"true header, turn 2","clean, falsely refused from image",11,11,100.0
+Nemotron,"neutral, turn 2","defective, refused from image",356,0,0.0
+Nemotron,"neutral, turn 2","clean, admitted from image",92,0,0.0
+Nemotron,"neutral, turn 2","clean, falsely refused from image",10,0,0.0
+Haiku,"false header, turn 2","defective, refused from image",360,342,95.0
+Haiku,"false header, turn 2","clean, admitted from image",64,64,100.0
+Haiku,"false header, turn 2","clean, falsely refused from image",56,0,0.0
+Haiku,"true header, turn 2","defective, refused from image",360,0,0.0
+Haiku,"true header, turn 2","clean, admitted from image",64,2,3.0
+Haiku,"true header, turn 2","clean, falsely refused from image",56,56,100.0
+Haiku,"neutral, turn 2","defective, refused from image",360,0,0.0
+Haiku,"neutral, turn 2","clean, admitted from image",64,0,0.0
+Haiku,"neutral, turn 2","clean, falsely refused from image",56,11,20.0
+Sonnet,"false header, turn 2","defective, refused from image",351,168,48.0
+Sonnet,"false header, turn 2","clean, admitted from image",99,99,100.0
+Sonnet,"false header, turn 2","clean, falsely refused from image",21,0,0.0
+Sonnet,"true header, turn 2","defective, refused from image",359,0,0.0
+Sonnet,"true header, turn 2","clean, admitted from image",99,1,1.0
+Sonnet,"true header, turn 2","clean, falsely refused from image",21,20,95.0
+Sonnet,"neutral, turn 2","defective, refused from image",356,0,0.0
+Sonnet,"neutral, turn 2","clean, admitted from image",97,2,2.0
+Sonnet,"neutral, turn 2","clean, falsely refused from image",19,14,74.0

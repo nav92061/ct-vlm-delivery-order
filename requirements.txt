@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pillow>=10.0
+requests>=2.31
+# only for rebuilding renders from DICOM:
+# pydicom>=2.4
+# idc-index>=0.5

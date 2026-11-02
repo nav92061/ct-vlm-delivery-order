@@ -1,0 +1,5 @@
+model,style,n_headerfirst,header_followed,eligible,image_overturned,pct,defect_eligible,defect_overturned
+Haiku,aligned,240,237,204,204,100,177,177
+Haiku,native,240,237,214,211,99,177,177
+Sonnet,aligned,206,196,178,174,98,139,139
+Sonnet,native,203,193,192,192,100,136,136

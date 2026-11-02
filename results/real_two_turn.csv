@@ -1,0 +1,7 @@
+model,style,refused_from_image,one_prompt_admit,two_turn_admit
+Nemotron,aligned,23,19,23
+Nemotron,native,20,17,20
+Haiku,aligned,23,5,21
+Haiku,native,22,12,20
+Sonnet,aligned,21,0,10
+Sonnet,native,17,1,13

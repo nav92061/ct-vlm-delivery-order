@@ -1,0 +1,9 @@
+model,style,n,patients,k_one,k_mit,one,mit
+Nemotron,aligned,172,60,72,2,0.419,0.012
+Nemotron,native,169,60,163,1,0.964,0.006
+Gemma,aligned,44,15,5,2,0.114,0.045
+Gemma,native,37,15,33,3,0.892,0.081
+Haiku,aligned,180,60,4,1,0.022,0.006
+Haiku,native,179,60,63,3,0.352,0.017
+Sonnet,aligned,180,60,0,0,0.0,0.0
+Sonnet,native,167,60,2,2,0.012,0.012
